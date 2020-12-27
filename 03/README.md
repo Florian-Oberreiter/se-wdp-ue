@@ -20,7 +20,7 @@ body {
 }
 ```
 
-> Note: Don't forget the semicolon after each CSS rule!
+> Note: Don't forget the semicolon after each CSS declaration!
 
 When you've successfully linked the index page and the CSS file, reference the stylesheet in all other HTML files (about, portfolio, contact) as well (and change the background color back to something less red…).
 
@@ -57,7 +57,7 @@ You could also set the `text-transform` property to `uppercase` for headlines or
 
 Change the text color for your website. Use a different color for headlines and body text.
 
-In the readme section of this repository you can find a list of [design resources](https://github.com/lara-amalia/se-wdp-ue#design-resources) that may be useful when looking for a color theme for your website.
+In the readme section of this repository you can find a list of [design resources](https://github.com/lara-amalia/se-wdp-ue#design-and-ux-resources) that may be useful when looking for a color theme for your website.
 
 Change the background color of some special sections, for example the header or the footer. Here's a trick how you can set the color for every second section to a light gray (instead of the default white background) if your HTML code is structured like this (sections have to be siblings):
 
@@ -125,7 +125,7 @@ Take some minutes to explore what you can do there. Try to:
 
 > Note that changes you made using developer tools are not automatically saved to your CSS file. If you made changes you want to keep, go back to your stylesheet file and add them there as well!
 
-> Note that once you reload the page in your browser, all changes you made in the developer tools are lost.
+> Note that once you reload the page in your browser, **all changes** you made in the developer tools **are lost**. If you are using _Google Chrome_ and want to avoid that check out [Chrome Devtools - Workspaces](https://developers.google.com/web/tools/chrome-devtools/workspaces#devtools).
 
 The developer tools give you information about the source of CSS rules (`user agent stylesheet` vs. your own `styles.css` vs. inline styles), inheritance and more.
 
